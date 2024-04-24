@@ -1,0 +1,7 @@
+<h2>Lista productos ejercicios 2</h2>
+<p>Haga click en el elemento que quiera añadir a la lista</p>
+<ol>
+@for (elemento of elementos; track $index) {
+    <li (click)="metodo(elemento)">{{elemento}}</li>
+}
+</ol>

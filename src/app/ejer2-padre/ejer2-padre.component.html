@@ -1,0 +1,8 @@
+<h2>Padre ejercicio 2</h2>
+<ul>
+    @for (item of listapadre; track $index) {
+        <li>{{item}}</li>
+    }
+</ul>
+<app-ejer2-hijo (llamadaPadre)="recibirDato($event)"></app-ejer2-hijo>
+
